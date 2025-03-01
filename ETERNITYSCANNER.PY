@@ -5,10 +5,14 @@ import sqlite3
 import logging
 import threading
 import socket
+import pyfiglet
+import pyfiglet
 from collections import defaultdict
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from scapy.all import sniff, IP, TCP, UDP, ICMP
-
+text = "ETERNITY"
+result = pyfiglet.figlet_format(text)
+print(result)
 # Configuration
 BLOCK_DURATION = 3600  # Block duration in seconds (1 hour)
 LOG_FILE = "scan_detector.log"
