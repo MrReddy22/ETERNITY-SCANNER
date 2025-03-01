@@ -31,7 +31,7 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
    ```sh
    https://github.com/MrReddy22/ETERNITY-SCANNER.git
    cd ETERNITY-SCANNER
-   sudo python3 eternityscanner.py
+   sudo python3 ETERNITYSCANNER.py
    ```
 
 ### macOS
@@ -42,9 +42,9 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
    ```
 2. **Clone the repository & run the script:**
    ```sh
-   git clone https://github.com/your-repo/port-scan-detector.git
-   cd port-scan-detector
-   sudo python3 scan_detector.py
+   git clone https://github.com/MrReddy22/ETERNITY-SCANNER.git
+   cd ETERNITY-SCANNER
+   sudo python3 ETERNITYSCANNER.py
    ```
 
 ### Linux (Ubuntu/Debian)
@@ -55,9 +55,9 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
    ```
 2. **Clone the repository & run the script:**
    ```sh
-   git clone https://github.com/your-repo/port-scan-detector.git
-   cd port-scan-detector
-   sudo python3 scan_detector.py
+   git clone https://github.com/MrReddy22/ETERNITY-SCANNER.git
+   cd ETERNITY-SCANNER
+   sudo python3 ETERNITYSCANNER.py
    ```
 
 ---
@@ -66,7 +66,7 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
 
 1. **Start the program:**
    ```sh
-   sudo python3 scan_detector.py
+   sudo python3 ETERNITYSCANNER.py
    ```
 2. **Choose Network Interface:** Select the interface to monitor (e.g., `eth0`, `wlan0`).
 3. **Enter Whitelisted IPs:** Add any IPs that should never be blocked.
