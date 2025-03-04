@@ -26,6 +26,7 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
    ```sh
    sudo apt update && sudo apt install python3 python3-pip iptables sqlite3 -y
    pip install scapy
+   sudo apt install python3-pyfiglet
    ```
 4. **Clone the repository & run the script:**
    ```sh
@@ -37,7 +38,7 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
 ### macOS
 1. **Install dependencies:**
    ```sh
-   brew install python3 iproute2mac sqlite3
+   brew install python3 iproute2mac sqlite3 python3-pyfiglet
    pip3 install scapy
    ```
 2. **Clone the repository & run the script:**
@@ -52,6 +53,7 @@ This project is a **real-time intrusion detection and prevention system (IDPS)**
    ```sh
    sudo apt update && sudo apt install python3 python3-pip iptables sqlite3 -y
    pip install scapy
+   sudo apt install python3-pyfiglet
    ```
 2. **Clone the repository & run the script:**
    ```sh
